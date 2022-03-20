@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registrationform.css">
+</head>
+<body>
+    <h1><strong>SKILLSPIRE STUDENT REGISTRATION FORM</strong></h1>
+    <br>
+    <form action="" class="form-example">
+        <div class="form-example">
+        <label for="FIRST NAME" class="Even"><b>NAME</b></label>
+        <input type="FIRST NAME" name="First Name" id="name" required class="even1">
+        <p>(mx 30 Chrts A-Z)</p>
+        </div>
+
+        <div class="form-example">
+            <label for="last Name"class="Even"><b>LAST NAME</b></label>
+            <input type="last Name" name="last name" id="last name" required class="even1">
+        </div>
+<!--This is a drop down list-->
+       <p>
+        <div class="form-example">
+            <label for="DOB"><b>Date Of Birth</b> </label>
+        <select name="Day" id="day">
+            <option value="01">Day</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+        </select>
+        <select name="Month" id="month">
+        <option value="month">Month</option>
+    </select>
+          <select name="Year" id="Year">
+              <option value="Year">Year</option>
+          </select>
+        </div>
+    </p>
+
+        <div class="form-example">
+            <label for="Email"class="Even"><b>Email ID</b> </label>
+            <input type="email" name="email" id="email" required class="even1">
+        </div>
+        <br>
+
+        <div class="form-example">
+            <label for="Mobile Number" class="Even"><b>Mobile Number</b> </label>
+            <input type="tel" name="Mobile Number" id="Mobile" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-45-690" required class="even1">
+        </div>
+        <br>
+        <div class="form-example">
+            <label for="Marital Status"><b>Single</b></label>
+            <input type="radio" name="single" id="single" required >
+            <label for="Marital Status"><b>Married</b></label>
+            <input type="radio" name="single" id="single" required>
+        </div>
+        <br>
+        <div class="form-example">
+            <label for="Street" class="Even"><b>Street</b></label>
+            <input type="Text" name="Street" id="Street" required class="even1">
+        </div>
+        <br>
+        <div class="form-example">
+            <label for="City" class="Even"><b>City</b></label>
+            <input type="City" name="City" id="City" required class="even1">
+            <p>(mx 30 Chrts A-Z)</p>
+        </div>
+
+        <div class="form-example">
+            <label for="Pin Code" class="Even"><b>Pin Code</b></label>
+            <input type="number" name="pin code" id="pin code" required class="even1">
+            <p>(6 digit number)</p>
+        </div>
+        <br>
+        <div class="form-example">
+            <label for="State" class="Even"><b>State</b></label>
+            <input type="State" name="State" id="state" required class="even1">
+        </div>
+        <br>
+        <div class="form-example">
+            <label for="last Name" class="Even"><b>Country</b></label>
+            <input type="Country" name="Country" id="Country" required class="even1">
+        </div>
+        <br>
+
+        <div class="form-example">
+            <label for="Courses Applied For"><b>Courses Applied For: &nbsp;&nbsp;&nbsp;</b></label>
+            <label for="MERN">Mern</label>
+            <input type="checkbox" name="Mern" id="Mern" required>
+            <label for="PYTHON">Python</label>
+            <input type="checkbox" name="PYTHON" id="PYTHON" required>
+            <label for="SQL">Sql</label>
+            <input type="checkboX" name="SQL" id="SQL" required>
+            <label for="JAVA">Java</label>
+            <input type="checkbox" name="JAVA" id="JAVA" required>
+            <label for="OTHERS">Others</label>
+            <input type="checkbox" name="Others" id="Others" required >
+        </div>
+        <br>
+        <label for="Education"><b>Education</b></label>
+        <div class="form-table">
+           <table>
+            <tr>
+                <th>
+                    <label for="" class="Major">Major</label>
+                    <input type="text" name="Major" id="Major"class="M" placeholder="High School">
+                </th>
+                <th><label for="GPA" class="GPA">GPA</label>
+                    <input type="text" name="GPA" id="GPA" class="G">
+                </th>
+                <th><label for="Year Graduated" class="yearGraduated">Year Graduated</label>
+                    <input type="text" name="YG" id="YG" class="YG">
+                </th>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="" class=""></label>
+                    <input type="text" name="HS" id="HS" placeholder="Undergraduate">
+                </td>
+                 <td>
+                    <label for=""></label>
+                    <input type="text" name="" id="">
+                </td>
+                <td>
+                    <label for=""></label>
+                    <input type="text" name="" id="">
+                </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="" class=""></label>
+                <input type="text" name="HS" id="HS" placeholder="Graduate">
+            </td>
+             <td>
+                <label for=""></label>
+                <input type="text" name="" id="">
+            </td>
+            <td>
+                <label for=""></label>
+                <input type="text" name="" id="">
+            </td>
+    </tr>
+        <tr>
+            <tr>
+                <td>
+                    <label for="" class=""></label>
+                    <input type="text" name="HS" id="HS" placeholder="Trade School">
+                </td>
+                 <td>
+                    <label for=""></label>
+                    <input type="text" name="" id="">
+                </td>
+                <td>
+                    <label for=""></label>
+                    <input type="text" name="" id="">
+                </td>
+        </tr>
+        </tr>
+           </table>
+           <br>
+           <label for="Preferred Timing"><b>Prefered Timing &nbsp;&nbsp;&nbsp;</b> </label>
+
+           <div>
+            <label for="Morning"class="Even"><b>Morning</b></label>
+            <input type="radio" name="noon" id="Morning" required class="even1" >
+            <label for="Noon" class="Even"><b>Noon</b></label>
+            <input type="radio" name="noon" id="noon" required class="even1">
+            <label for="Noon" class="Even"><b>Evening</b></label>
+            <input type="radio" name="Evening" id="Evening" required class="even1">
+        </div>
+
+        </div>
+        <div class="button">
+        <button type="submit" value="Submit">Submit</button>
+        <button type="reset" value="Reset">Reset</button>
+       </div>
+    </form>
+</body>
+</html>
